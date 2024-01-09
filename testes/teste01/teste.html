@@ -9,82 +9,89 @@
         body {
             margin: 2%;
             background-image: linear-gradient(to right, black, rgb(9, 9, 59));
+            font-family: serif;
             color: white;
-        }
-
-        section#cabeca {
-            text-align: center;
-            margin-top: 10px;
-            position: relative;
-            background-image: linear-gradient(to right, black, rgb(9, 9, 59)
-            );
-            height: 220px;
-            border-style: solid;
-            border-radius: 8px;
-            border-color: rgba(0, 78, 245, 0.425);
-        }
-        
-        h1 {
-            font-size: 30px;
         }
 
         a {
             color: white;
+            font-weight: bolder;
+            text-decoration: none;
         }
 
-        section#meiopt1 {
-            margin-top: 10px;
-            text-align: left;
-            height: 300px;
-            padding: 10px;
-            background-image: linear-gradient(to right, black, rgb(9, 9, 59)
-            );
-            border-radius: 8px;
-            border-style: solid;
-            border-color: rgba(0, 78, 245, 0.425);
-        }
-
-        section#meiopt2 {
-            margin-top: 10px;
-            text-align: left;
-            height: 300px;
-            padding: 10px;
-            background-image: linear-gradient(to right, black, rgb(9, 9, 59)
-            );
-            border-radius: 8px;
-            border-style: solid;
-            border-color: rgba(0, 78, 245, 0.425);
-        }
-
-        section#rodape {
+        section {
             position: relative;
-            margin: auto;
-            background-image: linear-gradient(to right, black, rgb(9, 9, 59)
-            );
-            border-radius: 3px;
+            margin: 10px;
+            border: solid 2px lightskyblue;
+            border-radius: 5px;
+        }
+
+        header {
+            margin: 10px;
             text-align: center;
-            transform: translateY(500px);
+            border: solid 2px lightskyblue;
+            padding: 25px;
+        }
+
+        nav {
+            transition-duration: 5s;
+        }
+
+        section.meio {
+            text-align: left;
+            padding: 10px;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            transform: translateY(12px);
         }
 
     </style>
 </head>
 <body>
-    <section id="cabeca">
+    <header>
         <h1>Título</h1>
             <h2>Sub-Título</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis cumque maxime nostrum, voluptatibus incidunt blanditiis cupiditate excepturi iure, ducimus provident quia, optio eaque corrupti qui sed. Aperiam minima repellendus blanditiis?</p>
-    </section>
-    <section id="meiopt1">
-        <h1>Imagem</h1>
+        <nav>
+            <a href="#">Tópico</a>
+            <a href="#">Tópico</a>
+            <a href="#">Tópico</a>
+            <a href="#">Tópico</a>
+        </nav>
+        <picture></picture>
+    </header>
+    <section class="meio" >
+        <h1>Texto</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore omnis accusantium aspernatur natus doloremque voluptates sunt velit nam iste, fugiat in accusamus ut obcaecati, atque vitae architecto, cumque doloribus recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur eveniet ipsam fugiat blanditiis natus necessitatibus incidunt eos, ratione consequuntur asperiores culpa veniam similique magni a corrupti delectus aliquid velit ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem id nesciunt quaerat architecto omnis? Impedit repellat quae error aspernatur accusantium molestias labore molestiae, libero odio cupiditate voluptatum facilis. Dolor, itaque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, iusto. Suscipit dolorum fuga molestias, unde temporibus quae nisi error quibusdam ab debitis distinctio quasi itaque voluptatem eaque nemo, vel cumque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique consequuntur cupiditate cum minus, voluptate iure neque ullam tempore temporibus delectus unde, voluptatum sapiente animi provident aspernatur soluta! Itaque, maiores!</p>
     </section>
-    <section id="meiopt2">
-        <h1>Imagem</h1>
+    <section class="meio">
+        <h1>Texto</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore omnis accusantium aspernatur natus doloremque voluptates sunt velit nam iste, fugiat in accusamus ut obcaecati, atque vitae architecto, cumque doloribus recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur eveniet ipsam fugiat blanditiis natus necessitatibus incidunt eos, ratione consequuntur asperiores culpa veniam similique magni a corrupti delectus aliquid velit ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem id nesciunt quaerat architecto omnis? Impedit repellat quae error aspernatur accusantium molestias labore molestiae, libero odio cupiditate voluptatum facilis. Dolor, itaque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, iusto. Suscipit dolorum fuga molestias, unde temporibus quae nisi error quibusdam ab debitis distinctio quasi itaque voluptatem eaque nemo, vel cumque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique consequuntur cupiditate cum minus, voluptate iure neque ullam tempore temporibus delectus unde, voluptatum sapiente animi provident aspernatur soluta! Itaque, maiores!</p>
     </section>
-    <section id="rodape">
+    <section class="meio">
+        <h1>Listas</h1>
+        <ul>
+            <li>Cachaça</li>
+            <li>Cerveja</li>
+            <li>Energético</li>
+            <li>Gin</li>
+            <li>Licores</li>
+            <li>Rum</li>
+            <li>Tequila</li>
+        </ul>
+        <ol>
+            <li>Água</li>
+            <li>Água de Coco</li>
+            <li>Sucos Naturais</li>
+            <li>Chás</li>
+            <li>Café</li>
+        </ol>
+    </section>
+    <footer>
         <p><a href="https://www.flaticon.com/br/icon-font-gratis/twitter_6422210?related_id=6422210" target="_blank">Créditos</a></p>
-    </section>
-    
+    </footer>
 </body>
 </html>
