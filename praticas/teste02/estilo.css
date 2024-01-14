@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, gray, white);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+    padding: 5px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 98%;
+}
+
